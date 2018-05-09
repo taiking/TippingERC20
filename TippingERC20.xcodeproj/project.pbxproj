@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72008A3E1EB20161B9DB4E71 /* Pods_TippingERC20.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B2ACAC6049C5070950FED7 /* Pods_TippingERC20.framework */; };
+		D83FF89E20A2C9A4003225F8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83FF89D20A2C9A4003225F8 /* Config.swift */; };
+		D850A1ED20A2E12D005783C5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850A1EC20A2E12D005783C5 /* TabBarController.swift */; };
+		D850A1EF20A2E178005783C5 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850A1EE20A2E178005783C5 /* MyInfoViewController.swift */; };
+		D850A1F120A2F53A005783C5 /* SendEthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850A1F020A2F53A005783C5 /* SendEthViewController.swift */; };
+		D850A1F320A2F952005783C5 /* SendTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850A1F220A2F952005783C5 /* SendTokenViewController.swift */; };
+		D85AE64320A2A89C00E9A078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85AE64220A2A89C00E9A078 /* AppDelegate.swift */; };
+		D85AE64820A2A89C00E9A078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85AE64620A2A89C00E9A078 /* Main.storyboard */; };
+		D85AE64A20A2A89D00E9A078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85AE64920A2A89D00E9A078 /* Assets.xcassets */; };
+		D85AE64D20A2A89D00E9A078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85AE64B20A2A89D00E9A078 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B2ACAC6049C5070950FED7 /* Pods_TippingERC20.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TippingERC20.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C02711191261AE37E803C0 /* Pods-TippingERC20.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TippingERC20.release.xcconfig"; path = "Pods/Target Support Files/Pods-TippingERC20/Pods-TippingERC20.release.xcconfig"; sourceTree = "<group>"; };
+		D83FF89D20A2C9A4003225F8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D850A1EC20A2E12D005783C5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D850A1EE20A2E178005783C5 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		D850A1F020A2F53A005783C5 /* SendEthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEthViewController.swift; sourceTree = "<group>"; };
+		D850A1F220A2F952005783C5 /* SendTokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTokenViewController.swift; sourceTree = "<group>"; };
+		D85AE63F20A2A89C00E9A078 /* TippingERC20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TippingERC20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85AE64220A2A89C00E9A078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85AE64720A2A89C00E9A078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85AE64920A2A89D00E9A078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85AE64C20A2A89D00E9A078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85AE64E20A2A89D00E9A078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE935C0DD8D7FCD4F1B61714 /* Pods-TippingERC20.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TippingERC20.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TippingERC20/Pods-TippingERC20.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85AE63C20A2A89C00E9A078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72008A3E1EB20161B9DB4E71 /* Pods_TippingERC20.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A817A6E6543E67FE75C3010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE935C0DD8D7FCD4F1B61714 /* Pods-TippingERC20.debug.xcconfig */,
+				13C02711191261AE37E803C0 /* Pods-TippingERC20.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F9DC94A76902CBCDB8B8823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B2ACAC6049C5070950FED7 /* Pods_TippingERC20.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8091CC220A2E09300D432BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D850A1EC20A2E12D005783C5 /* TabBarController.swift */,
+				D850A1EE20A2E178005783C5 /* MyInfoViewController.swift */,
+				D850A1F020A2F53A005783C5 /* SendEthViewController.swift */,
+				D850A1F220A2F952005783C5 /* SendTokenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D85AE63620A2A89C00E9A078 = {
+			isa = PBXGroup;
+			children = (
+				D85AE64120A2A89C00E9A078 /* TippingERC20 */,
+				D85AE64020A2A89C00E9A078 /* Products */,
+				6A817A6E6543E67FE75C3010 /* Pods */,
+				6F9DC94A76902CBCDB8B8823 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D85AE64020A2A89C00E9A078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85AE63F20A2A89C00E9A078 /* TippingERC20.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85AE64120A2A89C00E9A078 /* TippingERC20 */ = {
+			isa = PBXGroup;
+			children = (
+				D8091CC220A2E09300D432BC /* ViewControllers */,
+				D85AE64220A2A89C00E9A078 /* AppDelegate.swift */,
+				D85AE64620A2A89C00E9A078 /* Main.storyboard */,
+				D85AE64920A2A89D00E9A078 /* Assets.xcassets */,
+				D85AE64B20A2A89D00E9A078 /* LaunchScreen.storyboard */,
+				D85AE64E20A2A89D00E9A078 /* Info.plist */,
+				D83FF89D20A2C9A4003225F8 /* Config.swift */,
+			);
+			path = TippingERC20;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85AE63E20A2A89C00E9A078 /* TippingERC20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85AE65120A2A89D00E9A078 /* Build configuration list for PBXNativeTarget "TippingERC20" */;
+			buildPhases = (
+				9A006154E95EE9AB881F4306 /* [CP] Check Pods Manifest.lock */,
+				D85AE63B20A2A89C00E9A078 /* Sources */,
+				D85AE63C20A2A89C00E9A078 /* Frameworks */,
+				D85AE63D20A2A89C00E9A078 /* Resources */,
+				28BAA9E0DBF4BB6B87E0E713 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TippingERC20;
+			productName = TippingERC20;
+			productReference = D85AE63F20A2A89C00E9A078 /* TippingERC20.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85AE63720A2A89C00E9A078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = chocovayashi;
+				TargetAttributes = {
+					D85AE63E20A2A89C00E9A078 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D85AE63A20A2A89C00E9A078 /* Build configuration list for PBXProject "TippingERC20" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85AE63620A2A89C00E9A078;
+			productRefGroup = D85AE64020A2A89C00E9A078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85AE63E20A2A89C00E9A078 /* TippingERC20 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85AE63D20A2A89C00E9A078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85AE64D20A2A89D00E9A078 /* LaunchScreen.storyboard in Resources */,
+				D85AE64A20A2A89D00E9A078 /* Assets.xcassets in Resources */,
+				D85AE64820A2A89C00E9A078 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BAA9E0DBF4BB6B87E0E713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TippingERC20/Pods-TippingERC20-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-Synchronous/Alamofire_Synchronous.framework",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/libsodium/libsodium.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1_ios/secp256k1_ios.framework",
+				"${BUILT_PRODUCTS_DIR}/web3swift/web3swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_Synchronous.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libsodium.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1_ios.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/web3swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TippingERC20/Pods-TippingERC20-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A006154E95EE9AB881F4306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TippingERC20-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85AE63B20A2A89C00E9A078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D850A1ED20A2E12D005783C5 /* TabBarController.swift in Sources */,
+				D850A1F120A2F53A005783C5 /* SendEthViewController.swift in Sources */,
+				D850A1F320A2F952005783C5 /* SendTokenViewController.swift in Sources */,
+				D850A1EF20A2E178005783C5 /* MyInfoViewController.swift in Sources */,
+				D85AE64320A2A89C00E9A078 /* AppDelegate.swift in Sources */,
+				D83FF89E20A2C9A4003225F8 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D85AE64620A2A89C00E9A078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85AE64720A2A89C00E9A078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85AE64B20A2A89D00E9A078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85AE64C20A2A89D00E9A078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85AE64F20A2A89D00E9A078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85AE65020A2A89D00E9A078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85AE65220A2A89D00E9A078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE935C0DD8D7FCD4F1B61714 /* Pods-TippingERC20.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TippingERC20/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chocovayashi.TippingERC20;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85AE65320A2A89D00E9A078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C02711191261AE37E803C0 /* Pods-TippingERC20.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TippingERC20/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.chocovayashi.TippingERC20;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85AE63A20A2A89C00E9A078 /* Build configuration list for PBXProject "TippingERC20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85AE64F20A2A89D00E9A078 /* Debug */,
+				D85AE65020A2A89D00E9A078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85AE65120A2A89D00E9A078 /* Build configuration list for PBXNativeTarget "TippingERC20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85AE65220A2A89D00E9A078 /* Debug */,
+				D85AE65320A2A89D00E9A078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85AE63720A2A89C00E9A078 /* Project object */;
+}
